@@ -4001,7 +4001,7 @@ function exploreUniverse(){
     if (xRate > totalMatter - foundMatter) {xRate = totalMatter - foundMatter;}
         foundMatter = foundMatter + xRate;
         availableMatter = availableMatter + xRate;
-
+        if(foundMatter>totalMatter)foundMatter=totalMatter;
     var newRate = xRate * 100; 
         mdpsElement.innerHTML = spellf(xRate*100);
         availableMatterDisplayElement.innerHTML = spellf(availableMatter);
