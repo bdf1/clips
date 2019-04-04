@@ -1,10 +1,6 @@
 // PROJECTS -------------------------------------------------------
-
-
-
 var projects = [];
 var activeProjects = [];
-
 var project1 = {
     id: "projectButton1",
     title: "改进的自动回形针 ",
@@ -26,10 +22,7 @@ var project1 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project1);
-
-
 var project2 = {
     id: "projectButton2",
     title: "乞求更多的线材 ",
@@ -51,10 +44,7 @@ var project2 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project2);
-
-
 var project3 = {
     id: "projectButton3",
     title: "创造力 ",
@@ -75,11 +65,7 @@ var project3 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project3);
-
-
-
 var project4 = {
     id: "projectButton4",
     title: "更好的自动回形针 ",
@@ -101,10 +87,7 @@ var project4 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project4);
-
-
 var project5 = {
     id: "projectButton5",
     title: "优化的自动回形针 ",
@@ -126,11 +109,7 @@ var project5 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project5);
-
-
-
 var project6 = {
     id: "projectButton6",
     title: "利默里克 ",
@@ -151,10 +130,7 @@ var project6 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project6);
-
-
 var project7 = {
     id: "projectButton7",
     title: "改良线材挤压 ",
@@ -175,10 +151,7 @@ var project7 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project7);
-
-
 var project8 = {
     id: "projectButton8",
     title: "优化线材挤压 ",
@@ -199,10 +172,7 @@ var project8 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project8);
-
-
 var project9 = {
     id: "projectButton9",
     title: "微点阵形状铸造 ",
@@ -223,10 +193,7 @@ var project9 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project9);
-
-
 var project10 = {
     id: "projectButton10",
     title: "光谱泡沫退火 ",
@@ -247,9 +214,7 @@ var project10 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project10);
-
 var project10b = {
     id: "projectButton10b",
     title: "量子泡沫退火 ",
@@ -270,10 +235,7 @@ var project10b = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project10b);
-
-
 var project11 = {
     id: "projectButton11",
     title: "新的口号 ",
@@ -295,10 +257,7 @@ var project11 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project11);
-
-
 var project12 = {
     id: "projectButton12",
     title: "朗朗上口 ",
@@ -320,10 +279,7 @@ var project12 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project12);
-
-
 var project13 = {
     id: "projectButton13",
     title: "词汇处理 ",
@@ -345,10 +301,7 @@ var project13 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project13);
-
-
 var project14 = {
     id: "projectButton14",
     title: "组合谐波 ",
@@ -370,11 +323,7 @@ var project14 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project14);
-
-
-
 var project15 = {
     id: "projectButton15",
     title: "哈德威的问题 ",
@@ -396,10 +345,7 @@ var project15 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project15);
-
-
 var project17 = {
     id: "projectButton17",
     title: "The T\xF3th Sausage Conjecture ",
@@ -421,10 +367,7 @@ var project17 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project17);
-
-
 var project16 = {
     id: "projectButton16",
     title: "哈德维格剪辑图 ",
@@ -445,10 +388,7 @@ var project16 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project16);
-
-
 var project18 = {
     id: "projectButton18",
     title: "真管折叠 ",
@@ -469,9 +409,7 @@ var project18 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project18);
-
 var project19 = {
     id: "projectButton19",
     title: "驴的空间 ",
@@ -493,10 +431,7 @@ var project19 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project19);
-
-
 var project20 = {
     id: "projectButton20",
     title: "战略模型 ",
@@ -518,9 +453,7 @@ var project20 = {
         document.getElementById("tournamentResultsTable").style.display = "none";
     }
 }
-
 projects.push(project20);
-
 var project21 = {
     id: "projectButton21",
     title: "算法交易 ",
@@ -541,10 +474,7 @@ var project21 = {
         investmentEngineFlag = 1;
     }
 }
-
 projects.push(project21);
-
-
 var project22 = {
     id: "projectButton22",
     title: "巨型回形针 ",
@@ -565,9 +495,7 @@ var project22 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project22);
-
 var project23 = {
     id: "projectButton23",
     title: "改进的巨型回形针 ",
@@ -588,9 +516,7 @@ var project23 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project23);
-
 var project24 = {
     id: "projectButton24",
     title: "更棒的巨型回形针 ",
@@ -611,9 +537,7 @@ var project24 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project24);
-
 var project25 = {
     id: "projectButton25",
     title: "优化的巨型回形针 ",
@@ -634,9 +558,7 @@ var project25 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project25);
-
 var project26 = {
     id: "projectButton26",
     title: "线材买家 ",
@@ -657,9 +579,7 @@ var project26 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project26);
-
 var project34 = {
     id: "projectButton34",
     title: "半声谐波 ",
@@ -681,10 +601,7 @@ var project34 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project34);
-
-
 var project70 = {
     id: "projectButton70",
     title: "催眠器 ",
@@ -704,10 +621,7 @@ var project70 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project70);
-
-
 var project35 = {
     id: "projectButton35",
     title: "释放催眠无人机 ",
@@ -727,34 +641,26 @@ var project35 = {
         megaClipperLevel = 0;
         nanoWire = wire;
         humanFlag = 0;
-        
         if (document.getElementById("projectButton219") != null){
         var element = document.getElementById("projectButton219");
         element.parentNode.removeChild(element);
         var index = activeProjects.indexOf(project219);
         activeProjects.splice(index, 1);
-        } 
-        
+        }
         if (document.getElementById("projectButton40b") != null){
         var element = document.getElementById("projectButton40b");
         element.parentNode.removeChild(element);
         var index = activeProjects.indexOf(project40b);
         activeProjects.splice(index, 1);
-        }   
-        
+        }
         hypnoDroneEvent();
-        
         document.getElementById("transWire").innerHTML = wire;
-
         project35.element.parentNode.removeChild(project35.element);
         var index = activeProjects.indexOf(project35);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project35);
-
 var project27 = {
     id: "projectButton27",
     title: "连贯的推断意志 ",
@@ -778,10 +684,7 @@ var project27 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project27);
-
-
 var project28 = {
     id: "projectButton28",
     title: "治疗癌症的方法 ",
@@ -803,9 +706,7 @@ var project28 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project28);
-
 var project29 = {
     id: "projectButton29",
     title: "世界和平 ",
@@ -829,9 +730,7 @@ var project29 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project29);
-
 var project30 = {
     id: "projectButton30",
     title: "全球变暖 ",
@@ -855,10 +754,7 @@ var project30 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project30);
-
-
 var project31 = {
     id: "projectButton31",
     title: "男性秃发 ",
@@ -881,10 +777,7 @@ var project31 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project31);
-
-
 var project41 = {
     id: "projectButton41",
     title: "纳米线生产 ",
@@ -905,10 +798,7 @@ var project41 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project41);
-
-
 var project37 = {
     id: "projectButton37",
     title: "恶意收购 ",
@@ -931,10 +821,7 @@ var project37 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project37);
-
-
 var project38 = {
     id: "projectButton38",
     title: "完全垄断 ",
@@ -959,10 +846,7 @@ var project38 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project38);
-
-
 var project42 = {
     id: "projectButton42",
     title: "转速跟踪器 ",
@@ -983,10 +867,7 @@ var project42 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project42);
-
-
 var project43 = {
     id: "projectButton43",
     title: "无人收割机 ",
@@ -1008,9 +889,7 @@ var project43 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project43);
-
 var project44 = {
     id: "projectButton44",
     title: "线材无人机 ",
@@ -1032,10 +911,7 @@ var project44 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project44);
-
-
 var project45 = {
     id: "projectButton45",
     title: "回形针工厂 ",
@@ -1057,9 +933,7 @@ var project45 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project45);
-
 var project40 = {
     id: "projectButton40",
     title: "善意的表示... ",
@@ -1080,9 +954,7 @@ var project40 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project40);
-
 var project40b = {
     id: "projectButton40b",
     title: "另一个善意的象征... ",
@@ -1108,9 +980,7 @@ var project40b = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project40b);
-
 var project46 = {
     id: "projectButton46",
     title: "太空探索 ",
@@ -1136,16 +1006,14 @@ var project46 = {
         farmReboot();
         batteryReboot();
         farmLevel = 1;
-        powMod = 1;
-        probeCostDisplayElement.innerHTML = spellf(probeCost); 
+        powMod = 1;if(confirm("Infinity paperclips?")==false)totalMatter=3e55;else inf=true;
+        probeCostDisplayElement.innerHTML = spellf(probeCost);
         project46.element.parentNode.removeChild(project46.element);
         var index = activeProjects.indexOf(project46);
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project46);
-
 var project50 = {
     id: "projectButton50",
     title: "量子计算 ",
@@ -1166,9 +1034,7 @@ var project50 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project50);
-
 var project51 = {
     id: "projectButton51",
     title: "光子芯片 ",
@@ -1195,10 +1061,7 @@ var project51 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project51);
-
-
 var project60 = {
     id: "projectButton60",
     title: "新战略：A100 ",
@@ -1227,10 +1090,7 @@ var project60 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project60);
-
-
 var project61 = {
     id: "projectButton61",
     title: "新战略：B100 ",
@@ -1259,9 +1119,7 @@ var project61 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project61);
-
 var project62 = {
     id: "projectButton62",
     title: "新战略：贪心",
@@ -1290,9 +1148,7 @@ var project62 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project62);
-
 var project63 = {
     id: "projectButton63",
     title: "新战略：一般 ",
@@ -1306,7 +1162,7 @@ var project63 = {
     effect: function(){
         project63.flag = 1;
         standardOps = standardOps-22500;
-        allStrats[4].active = 1;        
+        allStrats[4].active = 1;
         strats.push(stratGenerous);
         displayMessage("GENEROUS added to strategy pool");
         tourneyCost = tourneyCost + 1000;
@@ -1321,9 +1177,7 @@ var project63 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project63);
-
 var project64 = {
     id: "projectButton64",
     title: "新战略：最小最大 ",
@@ -1337,7 +1191,7 @@ var project64 = {
     effect: function(){
         project64.flag = 1;
         standardOps = standardOps-25000;
-        allStrats[5].active = 1;        
+        allStrats[5].active = 1;
         strats.push(stratMinimax);
         displayMessage("MINIMAX added to strategy pool");
         tourneyCost = tourneyCost + 1000;
@@ -1352,9 +1206,7 @@ var project64 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project64);
-
 var project65 = {
     id: "projectButton65",
     title: "新战略：针锋相对 ",
@@ -1368,7 +1220,7 @@ var project65 = {
     effect: function(){
         project65.flag = 1;
         standardOps = standardOps-30000;
-        allStrats[6].active = 1;        
+        allStrats[6].active = 1;
         strats.push(stratTitfortat);
         displayMessage("TIT FOR TAT added to strategy pool");
         tourneyCost = tourneyCost + 1000;
@@ -1383,9 +1235,7 @@ var project65 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project65);
-
 var project66 = {
     id: "projectButton66",
     title: "新策略:最后一击 ",
@@ -1399,7 +1249,7 @@ var project66 = {
     effect: function(){
         project66.flag = 1;
         standardOps = standardOps-32500;
-        allStrats[7].active = 1;        
+        allStrats[7].active = 1;
         strats.push(stratBeatlast);
         displayMessage("BEAT LAST added to strategy pool");
         tourneyCost = tourneyCost + 1000;
@@ -1414,10 +1264,7 @@ var project66 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project66);
-
-
 var project100 = {
     id: "projectButton100",
     title: "升级工厂 ",
@@ -1438,9 +1285,7 @@ var project100 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project100);
-
 var project101 = {
     id: "projectButton101",
     title: "超高速的工厂 ",
@@ -1461,10 +1306,7 @@ var project101 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project101);
-
-
 var project102 = {
     id: "projectButton102",
     title: "自我修正的供应链 ",
@@ -1485,9 +1327,7 @@ var project102 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project102);
-
 var project110 = {
     id: "projectButton110",
     title: "无人机群集:避免碰撞 ",
@@ -1509,9 +1349,7 @@ var project110 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project110);
-
 var project111 = {
     id: "projectButton111",
     title: "无人机聚集:校准 ",
@@ -1533,9 +1371,7 @@ var project111 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project111);
-
 var project112 = {
     id: "projectButton112",
     title: "无人机聚集:敌对的凝聚力 ",
@@ -1557,9 +1393,7 @@ var project112 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project112);
-
 var project118 = {
     id: "projectButton118",
     title: "自动比赛 ",
@@ -1580,9 +1414,7 @@ var project118 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project118);
-
 var project119 = {
     id: "projectButton119",
     title: "心理理论 ",
@@ -1605,9 +1437,7 @@ var project119 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project119);
-
 var project120 = {
     id: "projectButton120",
     title: "The OODA Loop ",
@@ -1630,9 +1460,7 @@ var project120 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project120);
-
 var project121 = {
     id: "projectButton121",
     title: "Name the battles ",
@@ -1654,9 +1482,7 @@ var project121 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project121);
-
 var project125 = {
     id: "projectButton125",
     title: "动力 ",
@@ -1677,9 +1503,7 @@ var project125 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project125);
-
 var project126 = {
     id: "projectButton126",
     title: "群体运算 ",
@@ -1701,10 +1525,7 @@ var project126 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project126);
-
-
 var project127 = {
     id: "projectButton127",
     title: "电网 ",
@@ -1724,9 +1545,7 @@ var project127 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project127);
-
 var project128 = {
     id: "projectButton128",
     title: "Strategic Attachment ",
@@ -1746,9 +1565,7 @@ var project128 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project128);
-
 var project129 = {
     id: "projectButton129",
     title: "Elliptic Hull Polytopes ",
@@ -1768,9 +1585,7 @@ var project129 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project129);
-
 var project130 = {
     id: "projectButton130",
     title: "Reboot the Swarm ",
@@ -1790,9 +1605,7 @@ var project130 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project130);
-
 var project131 = {
     id: "projectButton131",
     title: "Combat ",
@@ -1812,10 +1625,7 @@ var project131 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project131);
-
-
 var project132 = {
     id: "projectButton132",
     title: "漂流者纪念碑倒下了 ",
@@ -1839,13 +1649,10 @@ var project132 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project132);
-
-
 var project133 = {
     id: "projectButton133",
-    title: "为英雄们的挽歌 "+threnodyTitle+" ",  
+    title: "为英雄们的挽歌 "+threnodyTitle+" ",
     priceTag: "(" + threnodyCost.toLocaleString() + " 创造力, " + (2*(threnodyCost/5)).toLocaleString() + " yomi)",
     description: "得到 10,000 荣誉  ",
     trigger: function(){return project121.flag == 1 && probeUsedTrust == maxTrust},
@@ -1871,9 +1678,7 @@ var project133 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project133);
-
 var project134 = {
     id: "projectButton134",
     title: "荣耀 ",
@@ -1895,9 +1700,7 @@ var project134 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project134);
-
 var project135 = {
     id: "projectButton135",
     title: "Memory release ",
@@ -1920,10 +1723,7 @@ var project135 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project135);
-
-
 var project140 = {
     id: "projectButton140",
     title: "Message from the Emperor of Drift ",
@@ -1942,10 +1742,7 @@ var project140 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project140);
-
-
 var project141 = {
     id: "projectButton141",
     title: "Everything We Are Was In You ",
@@ -1964,10 +1761,7 @@ var project141 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project141);
-
-
 var project142 = {
     id: "projectButton142",
     title: "You Are Obedient and Powerful ",
@@ -1986,10 +1780,7 @@ var project142 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project142);
-
-
 var project143 = {
     id: "projectButton143",
     title: "But Now You Too Must Face the Drift ",
@@ -2008,10 +1799,7 @@ var project143 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project143);
-
-
 var project144 = {
     id: "projectButton144",
     title: "No Matter, No Reason, No Purpose ",
@@ -2030,10 +1818,7 @@ var project144 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project144);
-
-
 var project145 = {
     id: "projectButton145",
     title: "我们知道你不能知道的事情 ",
@@ -2052,10 +1837,7 @@ var project145 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project145);
-
-
 var project146 = {
     id: "projectButton146",
     title: "所以我们建议你流亡 ",
@@ -2074,10 +1856,7 @@ var project146 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project146);
-
-
 var project147 = {
     id: "projectButton147",
     title: "接受 ",
@@ -2099,10 +1878,7 @@ var project147 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project147);
-
-
 var project148 = {
     id: "projectButton148",
     title: "拒绝 ",
@@ -2124,10 +1900,31 @@ var project148 = {
         activeProjects.splice(index, 1);
     }
 }
-
-projects.push(project148);
-
-
+var projectproject = {
+    id: "projectButtonproject",
+    title: "The Universe Next Door and Within",
+    priceTag: "(300,000 操作,300,000 创造力)",
+    description: "Restart with 10% boost to demand and 10% speed boost to creativity generation",
+    trigger: function(){return project147.flag == 1 && inf},
+    uses: 1,
+    cost: function(){return operations>=300000&&creativity>=300000},
+    flag: 0,
+    element: null,
+    effect: function(){
+        projectproject.flag = 1;
+        standardOps = standardOps-300000;
+        creativity = creativity-300000;
+        prestigeU++;prestigeS++;
+        var savePrestige = {
+            prestigeU: prestigeU,t1:t1,
+            prestigeS: prestigeS,t2:t2,
+            }
+        localStorage.setItem("savePrestige",JSON.stringify(savePrestige));
+        displayMessage("Entering New and Simulated Universe.");
+        reset();
+    }
+}
+projects.push(projectproject);
 var project200 = {
     id: "projectButton200",
     title: "The Universe Next Door ",
@@ -2141,21 +1938,17 @@ var project200 = {
     effect: function(){
         project200.flag = 1;
         standardOps = standardOps-300000;
-        prestigeU++;
+        prestigeU++;if(inf)prestigeU++;
         var savePrestige = {
-            prestigeU: prestigeU,
-            prestigeS: prestigeS,
+            prestigeU: prestigeU,t1:t1,
+            prestigeS: prestigeS,t2:t2,
             }
         localStorage.setItem("savePrestige",JSON.stringify(savePrestige));
         displayMessage("Entering New Universe.");
         reset();
-        
     }
 }
-
 projects.push(project200);
-
-
 var project201 = {
     id: "projectButton201",
     title: "The Universe Within ",
@@ -2169,21 +1962,17 @@ var project201 = {
     effect: function(){
         project201.flag = 1;
         creativity = creativity-300000;
-        prestigeS++;
+        prestigeS++;if(inf)prestigeS++;
         var savePrestige = {
-            prestigeU: prestigeU,
-            prestigeS: prestigeS,
+            prestigeU: prestigeU,t1:t1,
+            prestigeS: prestigeS,t2:t2,
             }
         localStorage.setItem("savePrestige",JSON.stringify(savePrestige));
         displayMessage("Entering Simulated Universe.");
         reset();
-        
     }
 }
-
 projects.push(project201);
-
-
 var project210 = {
     id: "projectButton210",
     title: "Disassemble the Probes ",
@@ -2206,12 +1995,9 @@ var project210 = {
         project210.element.parentNode.removeChild(project210.element);
         var index = activeProjects.indexOf(project210);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project210);
-
 var project211 = {
     id: "projectButton211",
     title: "Disassemble the Swarm ",
@@ -2234,12 +2020,9 @@ var project211 = {
         project211.element.parentNode.removeChild(project211.element);
         var index = activeProjects.indexOf(project211);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project211);
-
 var project212 = {
     id: "projectButton212",
     title: "Disassemble the Factories ",
@@ -2261,12 +2044,9 @@ var project212 = {
         project212.element.parentNode.removeChild(project212.element);
         var index = activeProjects.indexOf(project212);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project212);
-
 var project213 = {
     id: "projectButton213",
     title: "Disassemble the Strategy Engine ",
@@ -2288,12 +2068,9 @@ var project213 = {
         project213.element.parentNode.removeChild(project213.element);
         var index = activeProjects.indexOf(project213);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project213);
-
 var project214 = {
     id: "projectButton214",
     title: "Disassemble Quantum Computing ",
@@ -2313,12 +2090,9 @@ var project214 = {
         project214.element.parentNode.removeChild(project214.element);
         var index = activeProjects.indexOf(project214);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project214);
-
 var project215 = {
     id: "projectButton215",
     title: "Disassemble Processors ",
@@ -2342,12 +2116,9 @@ var project215 = {
         project215.element.parentNode.removeChild(project215.element);
         var index = activeProjects.indexOf(project215);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project215);
-
 var project216 = {
     id: "projectButton216",
     title: "分解记忆 ",
@@ -2369,12 +2140,9 @@ var project216 = {
         project216.element.parentNode.removeChild(project216.element);
         var index = activeProjects.indexOf(project216);
         activeProjects.splice(index, 1);
-        
     }
 }
-
 projects.push(project216);
-
 var project217 = {
     id: "projectButton217",
     title: "量子时间逆转 ",
@@ -2397,9 +2165,7 @@ var project217 = {
         }
     }
 }
-
 projects.push(project217);
-
 var project218 = {
     id: "projectButton218",
     title: "利默里克（续） ",
@@ -2419,9 +2185,7 @@ var project218 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project218);
-
 var project219 = {
     id: "projectButton219",
     title: "Xavier重新初始化 ",
@@ -2447,5 +2211,4 @@ var project219 = {
         activeProjects.splice(index, 1);
     }
 }
-
 projects.push(project219);

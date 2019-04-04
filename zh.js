@@ -210,9 +210,7 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-
 };
-
 function cnItem(text) {
     //数组里面有的，返回中文
     for (var i in cnItems) {
@@ -228,9 +226,6 @@ function cnItem(text) {
         }
     }
 }
-
-
-
 //汉化标题
 var cntit = {
     '': '',
@@ -245,10 +240,7 @@ var cntit = {
     '': '',
     '': '',
     '': '',
-
-
 };
-
 function cntitle(text) {
     //数组里面有的，返回中文
     for (var i in cntit) {

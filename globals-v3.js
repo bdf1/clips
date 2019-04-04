@@ -93,17 +93,15 @@ var qChipCost = 10000;
 var nextQchip = 0;
 var bribe = 1000000;
 var battleFlag = 0;
-
 var prestigeU = 0;
 var prestigeS = 0;
-
+var t1=1e200;
+var t2=1e200;
 var autoTourneyFlag = 0;
 var egoFlag = 0;
 var tothFlag = 0;
-
 var wirePriceCounter = 0;
 var wireBasePrice = 20;
-
 var farmRate = 50;
 var batterySize = 10000;
 var factoryPowerRate = 200;
@@ -117,7 +115,6 @@ var powMod = 0;
 var farmBill = 0;
 var batteryBill = 0;
 var momentum = 0;
-
 var swarmFlag = 0;
 var swarmStatus = 7;
 var swarmGifts = 0;
@@ -125,7 +122,6 @@ var nextGift = 0;
 var giftPeriod = 125000;
 var giftCountdown = giftPeriod;
 var elapsedTime = 0;
-
 var honor = 0;
 var maxTrust = 20;
 var maxTrustCost = 91117.99;
@@ -134,12 +130,10 @@ var disorgFlag = 0;
 var synchCost = 5000;
 var disorgMsg = 0;
 var threnodyCost = 50000;
-
 var entertainCost = 10000;
 var boredomLevel = 0;
 var boredomFlag = 0;
 var boredomMsg = 0;
-
 var wireBuyerStatus = 1;
 var wirePriceTimer = 0;
 var qFade = 1;
@@ -149,10 +143,8 @@ var sliderPos = 0;
 var tempOps = 0;
 var standardOps = 0;
 var opFade = 0;
-
 var opFadeTimer = 0;
 var opFadeDelay = 800;
-
 var dismantle = 0;
 var endTimer1 = 0;
 var endTimer2 = 0;
@@ -160,23 +152,9 @@ var endTimer3 = 0;
 var endTimer4 = 0;
 var endTimer5 = 0;
 var endTimer6 = 0;
-
 var testFlag = 0;
 var finalClips = 0;
-
 var resetFlag = 2;
 var threnodyAudio = new Audio();
-var threnodyLoadedBool = false; 
-
-
-
-
-
-
-
-
-
-
-
-
-
+var threnodyLoadedBool = false;
+var inf = false;
