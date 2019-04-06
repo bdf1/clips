@@ -1419,8 +1419,8 @@ if (portfolioSize>0 && humanFlag == 1){
 //-------------------STRATEGY-----------------------------------------------------
 var tourneyCost = 1000;
 var tourneyLvl = 1;
-var choiceANames = ["cooperate", "swerve", "macro", "fight", "bet", "raise_price", "opera", "go", "heads", "particle", "discrete", "peace", "search", "lead", "accept", "accept", "attack", "fwl", "ypq", "xt", "zw", "stt", "stt", "cxp", "dsq", "smj", "dsq", "wyy", "wf", "dxy", "bzg", "tlf", "art", "Melissa", "ypq", "Teacher Linda", "ypq"];
-var choiceBNames = ["defect", "straight", "micro", "back_down", "fold", "lower_price", "football", "stay", "tails", "wave", "continuous", "war", "evaluate", "follow", "reject", "deny", "decay", "ypq", "cdy", "sxc", "cyw", "jd", "hys", "www", "smj", "lsf", "lsf", "kj", "wff", "hb", "bzg(m)", "why", "science", "Linda", "smj", "Linda王", "cxp"];
+var choiceANames = ["cooperate", "swerve", "macro", "fight", "bet", "raise_price", "opera", "go", "heads", "particle", "discrete", "peace", "search", "lead", "accept", "accept", "attack", "fwl", "ypq", "xt", "zw", "stt", "stt", "cxp", "dsq", "smj", "dsq", "wyy", "wf", "dxy", "bzg", "tlf", "art", "Melissa", "ypq", "tcld", "ypq"];
+var choiceBNames = ["defect", "straight", "micro", "back_down", "fold", "lower_price", "football", "stay", "tails", "wave", "continuous", "war", "evaluate", "follow", "reject", "deny", "decay", "ypq", "cdy", "sxc", "cyw", "jd", "hys", "www", "smj", "lsf", "lsf", "kj", "wff", "hb", "bzg(m)", "why", "science", "Linda", "smj", "ldw", "cxp"];
 var stratCounter = 0;
 var roundNum = 0;
 var hMove = 1;
@@ -2751,7 +2751,7 @@ function calculateTrust(){
     }
 }
 function addProc(){
-    if (trust>0 || swarmGifts>0){
+    if (trust>processors+memory || swarmGifts>0){
         processors=processors+1;
         creativitySpeed = Math.log10(processors) * Math.pow(processors,1.1) + processors-1;
         processorsElement.innerHTML = processors;
@@ -2764,7 +2764,7 @@ function addProc(){
     }
 }
 function addMem(){
-    if (trust>0 || swarmGifts>0){
+    if (trust>processors+memory || swarmGifts>0){
         displayMessage("内存增加，最大操作增加");
         memory=memory+1;
         memoryElement.innerHTML = memory;
@@ -2874,12 +2874,16 @@ function milestoneCheck(){
         if(inf)displayMessage("Infinity Paperclips achieved in " + timeCruncher(ticks));else
         displayMessage("Universal Paperclips achieved in " + timeCruncher(ticks));
         if(inf)t2=Math.min(t2,ticks);else t1=Math.min(t1,ticks);
+    x1Element.innerHTML=timeCruncher(t1);
+    x2Element.innerHTML=timeCruncher(t2);
     }
     if (milestoneFlag == 14 && foundMatter>=totalMatter && availableMatter<1 && wire<1){
         milestoneFlag = milestoneFlag + 1;
         if(inf)displayMessage("Infinity Paperclips achieved in " + timeCruncher(ticks));else
         displayMessage("Universal Paperclips achieved in " + timeCruncher(ticks));
         if(inf)t2=Math.min(t2,ticks);else t1=Math.min(t1,ticks);
+    x1Element.innerHTML=timeCruncher(t1);
+    x2Element.innerHTML=timeCruncher(t2);
     }
 }
 function timeCruncher(t){
@@ -3137,98 +3141,98 @@ function increaseMaxTrust(){
 function raiseProbeSpeed(){
     if (probeUsedTrust < probeTrust){
     attackSpeed = attackSpeed + attackSpeedMod;
-    probeSpeed++;
+    probeSpeed++;probeUsedTrust++;
     probeSpeedDisplayElement.innerHTML = probeSpeed;
     }
 }
 function lowerProbeSpeed(){
     if (probeSpeed > 0){
     attackSpeed = attackSpeed - attackSpeedMod;
-    probeSpeed--;
+    probeSpeed--;probeUsedTrust--;
     probeSpeedDisplayElement.innerHTML = probeSpeed;
     }
 }
 function raiseProbeNav(){
     if (probeUsedTrust < probeTrust){
-    probeNav++;
+    probeNav++;probeUsedTrust++;
     probeNavDisplayElement.innerHTML = probeNav;
     }
 }
 function lowerProbeNav(){
     if (probeNav > 0){
-    probeNav--;
+    probeNav--;probeUsedTrust--;
     probeNavDisplayElement.innerHTML = probeNav;
     }
 }
 function raiseProbeHaz(){
     if (probeUsedTrust < probeTrust){
-    probeHaz++;
+    probeHaz++;probeUsedTrust++;
     probeHazDisplayElement.innerHTML = probeHaz;
     }
 }
 function lowerProbeHaz(){
     if (probeHaz > 0){
-    probeHaz--;
+    probeHaz--;probeUsedTrust--;
     probeHazDisplayElement.innerHTML = probeHaz;
     }
 }
 function raiseProbeRep(){
     if (probeUsedTrust < probeTrust){
-    probeRep++;
+    probeRep++;probeUsedTrust++;
     probeRepDisplayElement.innerHTML = probeRep;
     }
 }
 function lowerProbeRep(){
     if (probeRep > 0){
-    probeRep--;
+    probeRep--;probeUsedTrust--;
     probeRepDisplayElement.innerHTML = probeRep;
     }
 }
 function raiseProbeFac(){
     if (probeUsedTrust < probeTrust){
-    probeFac++;
+    probeFac++;probeUsedTrust++;
     probeFacDisplayElement.innerHTML = probeFac;
     }
 }
 function lowerProbeFac(){
     if (probeFac > 0){
-    probeFac--;
+    probeFac--;probeUsedTrust--;
     probeFacDisplayElement.innerHTML = probeFac;
     }
 }
 function raiseProbeHarv(){
     if (probeUsedTrust < probeTrust){
-    probeHarv++;
+    probeHarv++;probeUsedTrust++;
     probeHarvDisplayElement.innerHTML = probeHarv;
     }
 }
 function lowerProbeHarv(){
     if (probeHarv > 0){
-    probeHarv--
+    probeHarv--;probeUsedTrust--;
     probeHarvDisplayElement.innerHTML = probeHarv;
     }
 }
 function raiseProbeWire(){
     if (probeUsedTrust < probeTrust){
-    probeWire++;
+    probeWire++;probeUsedTrust++;
     probeWireDisplayElement.innerHTML = probeWire;
     }
 }
 function lowerProbeWire(){
     if (probeWire > 0){
-    probeWire--;
+    probeWire--;probeUsedTrust--;
     probeWireDisplayElement.innerHTML = probeWire;
     }
 }
 function raiseProbeCombat(){
     if (probeUsedTrust < probeTrust){
-    probeCombat++;
+    probeCombat++;probeUsedTrust++;
     probeCombatDisplayElement.innerHTML = probeCombat;
     }
 }
 function lowerProbeCombat(){
     if (probeCombat > 0){
-    probeCombat--
+    probeCombat--;probeUsedTrust--;
     probeCombatDisplayElement.innerHTML = probeCombat;
     }
 }
@@ -3444,7 +3448,7 @@ window.setInterval(function(){
 // Stock Report
     if (investmentEngineFlag==1){
     stockReportCounter++;
-    if (stockReportCounter>=10000){
+    if (stockReportCounter>=3000){
         var r = formatWithCommas(ledger+portTotal);
         displayMessage("Lifetime investment revenue report: $"+r);
         stockReportCounter = 0;
