@@ -176,7 +176,7 @@ var cnItems = {
     'Melissa': 'Melissa',
     'Linda': 'Linda',
     'kj': '孔君',
-    'tcld': 'Teacher Linda"',
+    'tcld': 'Teacher Linda',
     'ldw': 'Linda王',
     '': '',
     '': '',

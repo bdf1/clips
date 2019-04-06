@@ -2876,6 +2876,7 @@ function milestoneCheck(){
         if(inf)t2=Math.min(t2,ticks);else t1=Math.min(t1,ticks);
     x1Element.innerHTML=timeCruncher(t1);
     x2Element.innerHTML=timeCruncher(t2);
+        var savePrestige = {prestigeU: prestigeU,t1:t1,prestigeS: prestigeS,t2:t2};localStorage.setItem("savePrestige",JSON.stringify(savePrestige));
     }
     if (milestoneFlag == 14 && foundMatter>=totalMatter && availableMatter<1 && wire<1){
         milestoneFlag = milestoneFlag + 1;
@@ -2884,6 +2885,7 @@ function milestoneCheck(){
         if(inf)t2=Math.min(t2,ticks);else t1=Math.min(t1,ticks);
     x1Element.innerHTML=timeCruncher(t1);
     x2Element.innerHTML=timeCruncher(t2);
+        var savePrestige = {prestigeU: prestigeU,t1:t1,prestigeS: prestigeS,t2:t2};localStorage.setItem("savePrestige",JSON.stringify(savePrestige));
     }
 }
 function timeCruncher(t){
@@ -4565,7 +4567,7 @@ function load() {
             el.value = i;
             stratPickerElement.appendChild(el);
             }
-        }
+        }inf=loadGame.inf;
         resetFlag = loadGame.resetFlag;
         dismantle = loadGame.dismantle;
         endTimer1 = loadGame.endTimer1;
@@ -4841,7 +4843,7 @@ function load1() {
             el.value = i;
             stratPickerElement.appendChild(el);
             }
-        }
+        }inf=loadGame.inf;
         resetFlag = loadGame.resetFlag;
         dismantle = loadGame.dismantle;
         endTimer1 = loadGame.endTimer1;
@@ -5104,7 +5106,7 @@ function load2() {
             el.value = i;
             stratPickerElement.appendChild(el);
             }
-        }
+        }inf=loadGame.inf;
         resetFlag = loadGame.resetFlag;
         dismantle = loadGame.dismantle;
         endTimer1 = loadGame.endTimer1;
