@@ -174,7 +174,7 @@ var cnItems = {
     'art': '文科',
     'science': '理科',
     'Melissa': 'Melissa',
-    'Linda': 'Linda',
+    'Linda': 'Linda (庞瑶琳)',
     'kj': '孔君',
     'tcld': 'Teacher Linda',
     'ldw': 'Linda王',
