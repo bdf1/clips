@@ -625,11 +625,11 @@ projects.push(project70);
 var project35 = {
     id: "projectButton35",
     title: "释放催眠无人机 ",
-    priceTag: "(200 信任)",
+    priceTag: "(100 信任)",
     description: "一个信任的新时代",
     trigger: function(){return project70.flag == 1},
     uses: 1,
-    cost: function(){return trust>=200},
+    cost: function(){return trust>=100},
     flag: 0,
     element: null,
     effect: function(){
@@ -939,7 +939,7 @@ var project40 = {
     title: "善意的表示... ",
     priceTag: "($500,000)",
     description: "给主管的小礼物. (+1 信任)",
-    trigger: function(){return humanFlag == 1 && trust>=185 && trust<200 && clips>=101000000},
+    trigger: function(){return humanFlag == 1 && trust>=85 && trust<100 && clips>=101000000},
     uses: 1,
     cost: function(){return funds>=500000},
     flag: 0,
@@ -960,7 +960,7 @@ var project40b = {
     title: "另一个善意的象征... ",
     priceTag: "($"+bribe.toLocaleString()+")",
     description: "另一个给主管的小礼物。 (+1 信任)",
-    trigger: function(){return project40.flag == 1 && trust<200},
+    trigger: function(){return project40.flag == 1 && trust<100},
     uses: 1,
     cost: function(){return funds>=bribe},
     flag: 0,
@@ -972,7 +972,7 @@ var project40b = {
         project40b.priceTag = "($"+bribe.toLocaleString()+")";
         trust = trust + 1;
         displayMessage("Gift accepted, TRUST INCREASED");
-        if (trust<200){
+        if (trust<100){
         project40b.uses = (project40b.uses + 1);
             }
         project40b.element.parentNode.removeChild(project40b.element);

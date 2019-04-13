@@ -3503,7 +3503,7 @@ if (dismantle<4){
 // Demand Curve
     if (humanFlag == 1) {
     marketing = (Math.pow(1.1,(marketingLvl-1)));
-    demand = (((2/margin) * marketing * marketingEffectiveness)*demandBoost);
+    demand = (((.8/margin) * marketing * marketingEffectiveness)*demandBoost);
     demand = demand + ((demand/10)*prestigeU);
     }
 // Creativity
